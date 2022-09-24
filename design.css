@@ -1,0 +1,49 @@
+body{
+    background-color:black;
+    background-image:url("https://o.quizlet.com/UfFhxe2050Ey9CDYKZyiuA_b.jpg");
+    background-size:cover;
+    font-family:Arial, sans-serif;
+    background-position:center top;
+    overflow:hidden;
+    background-repeat:no-repeat;
+}
+#star{
+    width:70px;
+    height:70px;
+    position:absolute;
+    top:200px;
+    left:400px;
+    border-radius:55px;
+    padding:10px;
+    transition:0.5s all ease;
+}
+#star:hover{
+    width:90px;
+    height:90px;
+}
+#star:active{
+    border:2px solid white;
+}
+h1{
+    font-size:35px;
+    color:darkturquoise;
+    font-family: 'Dancing Script', cursive;
+}
+#score{
+    right:80px;
+    top:10px;
+    font-size:50px;
+    color:palevioletred;
+    position:absolute;
+}
+#instruction{
+    font-size:20px;
+    color:white;
+}
+#gameover, #winn{
+    color:hotpink;
+    text-align:center;
+    font-size:80px;
+    text-shadow:10px 10px 25px lightpink;
+    display:none;
+}
